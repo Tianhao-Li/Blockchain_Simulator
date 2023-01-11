@@ -15,6 +15,7 @@ This project implemented my own version of blockchain. This goal required implem
 ## Project Structure
 
 The specific structure of a block in the project is:
+
 <img src="https://github.com/Tianhao-Li/Blockchain_Simulator/blob/main/Block%20Structure.png">
 
 Here each block is connected via the `previous_hash` field, and the `proof` field is the nouce computed by a node that solves the hashing problem.
