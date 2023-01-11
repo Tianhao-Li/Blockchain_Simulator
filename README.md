@@ -14,8 +14,4 @@ This project implemented my own version of blockchain. This goal required implem
 
 ## Project Structure
 
-The specific structure of a block in the project is:
-
-```
-[<img src="https://github.com/Tianhao-Li/Blockchain_Simulator/blob/main/Block%20Structure.png">](https://github.com/Tianhao-Li/)
-```
+The specific structure of a block in the project is:<img src="https://github.com/Tianhao-Li/Blockchain_Simulator/blob/main/Block%20Structure.png">
