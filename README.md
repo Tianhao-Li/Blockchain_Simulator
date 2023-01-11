@@ -15,3 +15,12 @@ This project implemented my own version of blockchain. This goal required implem
 ## Project Structure
 
 The specific structure of a block in the project is:<img src="https://github.com/Tianhao-Li/Blockchain_Simulator/blob/main/Block%20Structure.png">
+
+Here each block is connected via the `previous_hash` field, and the `proof` field is the nouce computed by a node that solves the hashing problem.
+
+The project includes the following parts:
+
+- `blockchain.py` -- the abstract representation of our blockchain, contains fields of a blockchain and the basic operations and algorithms(e.g. Proof of Work Algorithm, Consensus Algorithm)
+- `app.py` -- all the end points in the Flask application, for running and testing the application
+- `server.py` -- attempt for DNS server in the blockchain
+
