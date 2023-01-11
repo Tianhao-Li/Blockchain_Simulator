@@ -8,8 +8,8 @@ Blockchain is a digital ledger that is distributed among the nodes of a peer-to-
 This project implemented my own version of blockchain. This goal required implementing a basic abstract representation of blockchain and basic algorithms and operations in blockchain. This goal is broke down into the following smaller goals:
 
 1. Construct representation of blockchain
-2. Implement basic operations, Proof of Work algorithm and Consensus algorithm 3. Map endpoints to functions via Flask for testing using HTTP requests
-
+2. Implement basic operations, Proof of Work algorithm and Consensus algorithm 
+3. Map endpoints to functions via Flask for testing using HTTP requests (using Postman)
 
 
 ## Project Structure
@@ -23,4 +23,3 @@ The project includes the following parts:
 - `blockchain.py` -- the abstract representation of our blockchain, contains fields of a blockchain and the basic operations and algorithms(e.g. Proof of Work Algorithm, Consensus Algorithm)
 - `app.py` -- all the end points in the Flask application, for running and testing the application
 - `server.py` -- attempt for DNS server in the blockchain
-
